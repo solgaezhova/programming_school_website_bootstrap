@@ -12,4 +12,4 @@ Main features:
 6. User-friendly design.
 6. Forms, cards, buttons, and much more!
 
-Check the website - 
+Check the website - https://solgaezhova.github.io/programming_school_website_bootstrap/.
