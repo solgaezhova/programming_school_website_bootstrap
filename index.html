@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b2a615973a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Design School</title>
+</head>
+
+<body>
+
+  <!-- header -->
+  <header>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+      <a href="#" class="navbar-brand text-white text-uppercase"><span class="h2 font-weight-bold rds">rds <i class="fa-solid fa-computer"></i></a>
+      <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <div class="bg-light line1"></div>
+        <div class="bg-light line2"></div>
+        <div class="bg-light line3"></div>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end text-uppercase font-weight-bold" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link m-2 menu-item nav-active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link m-2 menu-item">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link m-2 menu-item">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link m-2 menu-item">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="#customers" class="nav-link m-2 menu-item">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#pricing" class="nav-link m-2 menu-item">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link m-2 menu-item">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- banner -->
+    <div class="text-light text-md-right text-center banner">
+      <h1 class="display-4 banner-heading">Welcome to <span class="text-uppercase rds">rds</span></h1>
+      <p class="lead banner-par">Your dream <span class="rds">Responsive Design School</span></p>
+    </div>
+  </header>
+
+  <!-- skills -->
+  <section id="skills" class="p-5 skills">
+    <div class="container-fluid">
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4 rds">Skills</h1>
+          <div class="underline mb-4"></div>
+          <p class="lead">Register to <span class="rds">RDS</span> school now to become the best <span
+              class="rds">Responive Web Developer</span>. Learn the following skills</p>
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-4 text-center">
+          <i class="far fa-edit fa-5x text-success mb-3"></i>
+          <h1 class="text-white mb-3">Design</h1>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae
+            sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto
+            illum!</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-code fa-5x text-success mb-4"></i>
+          <h1 class="text-white mb-3">Development</h1>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae
+            sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto
+            illum!</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa-brands fa-creative-commons-sampling-plus fa-5x text-success mb-4"></i>
+          <h1 class="text-white mb-3">Creativity</h1>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic perferendis dolor vitae
+            sed, quae officiis exercitationem quaerat? Fugit excepturi exercitationem inventore, repellendus architecto
+            illum!</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 text-center">
+          <img src="images/computer.png" width="350" class="img-fluid computer-img">
+        </div>
+        <div class="col-lg-7 text-white text-lg-right text-center mission-text">
+          <h1 class="rds">We know HOW to teach</h1>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tempora itaque obcaecati
+            voluptas? Perferendis voluptate accusantium eum sit deleniti harum, assumenda vitae! Cupiditate eos iusto ab
+            rerum, voluptatum minima sed?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- projects -->
+  <section id="projects" class="py-5">
+    <div class="container-fluid">
+      <div class="row text-muted text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4 rds">Projects</h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead">Here you can find awesome projects developed by <span class="rds">RDS</span> students. You can filter them based on the technology used.</p>
+        </div>
+      </div>
+      <ul class="list-inline text-center text-uppercase font-weight-bold my-4">
+        <li class="list-inline-item gallery-list-item active-item" data-filter="all">All<span
+            class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="html">html<span
+            class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="css">css<span
+            class="mx-md-5 mx-3 text-muted">/</span>
+        </li>
+        <li class="list-inline-item gallery-list-item" data-filter="js">js
+        </li>
+      </ul>
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="filter html"><img src="images/project-1.avif" width="300"></div>
+          <div class="filter css"><img src="images/project-2.avif" width="300"></div>
+          <div class="filter js"><img src="images/project-3.avif" width="300"></div>
+          <div class="filter html"><img src="images/project-4.avif" width="300"></div>
+          <div class="filter js"><img src="images/project-5.avif" width="300"></div>
+          <div class="filter css"><img src="images/project-6.avif" width="300"></div>
+          <div class="filter js"><img src="images/project-7.avif" width="300"></div>
+          <div class="filter css"><img src="images/project-8.avif" width="300"></div>
+          <div class="filter html"><img src="images/project-9.avif" width="300"></div>
+          <div class="filter js"><img src="images/project-10.avif" width="300"></div>
+          <div class="filter css"><img src="images/project-11.jpeg" width="300"></div>
+          <div class="filter js"><img src="images/project-12.jpeg" width="300"></div>
+          <div class="filter html"><img src="images/project-13.avif" width="300"></div>
+          <div class="filter css"><img src="images/project-14.avif" width="300"></div>
+          <div class="filter html"><img src="images/project-15.avif" width="300"></div>
+          <div class="filter js"><img src="images/project-16.avif" width="300"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- team -->
+  <section id="team" class="p-sm-5 p-2 bg-dark">
+    <div class="container-fluid">
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4 rds">Team</h1>
+          <div class="underline mb-4"></div>
+          <p class="lead">Please meet the most <span class="rds">Responive Teachers</span> of our programming
+            school</p>
+        </div>
+      </div>
+      <div class="row align-items-strech">
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/teacher-1.avif" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Anna</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary">Anna is the main <span class="rds">responsive
+                  </span>teacher at our school.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-success"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/teacher-2.avif" class="card-img-top">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Brianna</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary">Brianna is another awesome <span class="rds">responsive
+                  </span>teacher at our school.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-"success></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-10 mx-auto mb-4">
+          <div class="card">
+            <img src="images/teacher-3.avif" class="card-img-top h-100">
+            <div class="card-body">
+              <div class="card-title">
+                <h3 class="text-muted">Rick</h3>
+              </div>
+              <div class="card-subtitle">
+                <p class="lead text-secondary"> Rick is one of the best <span class="rds">responsive
+                  </span>teachers at our school.</p>
+              </div>
+              <div class="text-right">
+                <a href="#"><i class="fab fa-facebook fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x mx-2 text-primary"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-2x mx-2 text-success"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- customers -->
+  <section id="customers" class="p-5 customers">
+    <div class="container-fluid">
+      <div class="row text-white text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4 rds">Our Customers</h1>
+          <div class="underline mb-4"></div>
+          <p class="lead">Read what our happy students say about our <span class="rds">RDS</span> programming school. Are you eager to become one of them?</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#customer-carousel" data-slide-to="1"></li>
+              <li data-target="#customer-carousel" data-slide-to="2"></li>
+              <li data-target="#customer-carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img src="images/customer-1.avif" class="img-fluid rounded-circle m-5" width="250">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus
+                    veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Helen</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer-2.avif" class="img-fluid rounded-circle m-5" width="250">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus
+                    veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Michael</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer-3.avif" class="img-fluid rounded-circle m-5" width="250">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus
+                    veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Susan</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="images/customer-4.avif" class="img-fluid rounded-circle m-5" width="250">
+                <blockquote class="blockquote text-white">
+                  <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum earum fuga natus
+                    veritatis minima voluptatibus? Quae consequuntur beatae repudiandae aut!</p>
+                </blockquote>
+                <h5 class="text-light text-uppercase font-weight-bold mb-3">Brian</h5>
+                <ul class="list-inline mb-5">
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fas fa-star text-warning"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- pricing -->
+  <section id="pricing" class="bg-light text-info text-center p-5">
+    <div class="container-fluid">
+      <div class="row text-muted text-center">
+        <div class="col m-4">
+          <h1 class="display-4 mb-4 rds">Join Us</h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead">Find the best tariff for you and join the best <span class="rds">Responsive Design School</span> now!</p>
+        </div>
+      </div>
+      <div class="row align-items-center text-muted">
+        <div class="col-lg-4">
+          <div class="card card-1 py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Monthly Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 29</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">HTML5</li>
+                <li class="font-weight-bold py-3 card-list-item">CSS3</li>
+                <li class="font-weight-bold py-3 card-list-item">JavaScript</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">Bootstrap</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-2 py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Unlimited Access</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 499</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">HTML5</li>
+                <li class="font-weight-bold py-3 card-list-item">CSS3</li>
+                <li class="font-weight-bold py-3 card-list-item">JavaScript</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">Bootstrap</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card card-3 py-4 my-4 mx-auto">
+            <div class="card-body">
+              <h5 class="text-uppercase font-weight-bold mb-5">Annual Membership</h5>
+              <h1 class="display-4"><i class="fas fa-dollar-sign"></i> 199</h1>
+              <ul class="list-unstyled">
+                <li class="font-weight-bold py-3 card-list-item">HTML5</li>
+                <li class="font-weight-bold py-3 card-list-item">CSS3</li>
+                <li class="font-weight-bold py-3 card-list-item">JavaScript</li>
+                <li class="font-weight-bold py-3 card-list-item border-0">Bootstrap</li>
+              </ul>
+              <a href="#" class="btn p-2 text-uppercase font-weight-bold price-card-button text-light">sign-up!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <h2 class="text-muted mb-4">Thanks for joining us!</h2>
+        <i class="fa-solid fa-computer rds fa-5x"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" class="p-5 bg-light">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center mb-3">
+          <h1 class="display-4 mb-4 rds">Contact Us</h1>
+          <div class="underline-dark mb-4"></div>
+          <p class="lead text-secondary">If you have any questions about our <span class="rds">responsive
+            </span>programming school we would love to chat with
+            you!
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8 col-sm-10">
+          <form class="text-muted">
+            <div class="form-group">
+              <label for="name" class="text-success">Name</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email" class="text-success">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="message" class="text-success">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button class="btn btn-outline-success btn-block text-success" type="submit">Submit Question</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="bg-dark px-5">
+    <div class="container-fluid">
+      <div class="row text-light py-4">
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3 rds">About Us</h5>
+          <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nobis dicta molestiae id
+            laboriosam natus repudiandae, ducimus illum veritatis perspiciatis possimus, at facere debitis accusantium?
+          </p>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3 rds">Visit Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link">Home</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Skills</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Projects</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Team</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Customers</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Pricing</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-6">
+          <h5 class="pb-3 rds">Need Help?</h5>
+          <ul class="list-unstyled">
+            <li>
+              <a href="#" class="footer-link text-uppercase">Customer Service</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Online Chat</a>
+            </li>
+            <li>
+              <a href="#" class="footer-link text-uppercase">Support</a>
+            </li>
+            <li>
+              <a href="#" class="rds">rds@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <h5 class="pb-3 rds">Stay Connected</h5>
+          <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusamus dolores iste
+            praesentium assumenda est quia accusantium corrupti ipsam inventore.</p>
+          <form class="mb-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+              <div class="input-group-append">
+                <button type="button" class="btn bg-success text-white text-uppercase font-weight-bold">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fab fa-facebook-square fa-2x text-primary"></i></li>
+            <li class="list-inline-item"><i class="fab fa-google-plus fa-2x text-success"></i></li>
+            <li class="list-inline-item"><i class="fab fa-instagram fa-2x text-success"></i></li>
+            <li class="list-inline-item"><i class="fab fa-twitter fa-2x text-info"></i></li>
+            <li class="list-inline-item"><i class="fab fa-youtube fa-2x text-success"></i></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center text-light border-top pt-3">
+          <p class="rds">&copy; 2023 Copyright, Developed by Olya Ezhova</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
