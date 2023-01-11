@@ -91,7 +91,6 @@ header {
 }
 
 /* skills */
-
 .skills {
   background: #151f20;
 }
@@ -165,10 +164,6 @@ header {
 }
 
 /* pricing */
-/* .card-body {
-  color: black;
-} */
-
 .card-list-item {
   border-bottom: 1px groove #eee;
   width: 55%;
@@ -250,31 +245,3 @@ header {
   color: #81f576;
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

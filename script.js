@@ -1,6 +1,6 @@
 $(document).ready(function () {
   
-  // Animation for computer image and mission text
+  // Animation for computer image and mission text moving
 
   $(window).scroll(function () {
     let position = $(this).scrollTop();
@@ -44,34 +44,3 @@ $(document).ready(function () {
     }
   });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
